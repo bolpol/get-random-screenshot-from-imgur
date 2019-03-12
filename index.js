@@ -65,7 +65,7 @@ function init() {
             hashname += rand1();
         }
         let printsc = "http://i.imgur.com/" + "" + hashname + ".jpg";
-        download(printsc, __dirname + '/result/' + hashname + '.jpg', function(){
+        download(printsc, __dirname + '/result/i_' + hashname + '.jpg', function(){
             console.log(printsc, 'done');
             init()
         });
