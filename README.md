@@ -1,3 +1,4 @@
-# get-random-screenshot-from-imgur          
-
-For start type: node index.js
+# get-random-screenshot-from-imgur 
+         
+Requirements: **npm install**   
+For start type: **node index.js**
